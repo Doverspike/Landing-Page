@@ -1,16 +1,29 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+    
 }
 
 .head {
     display: flex;    
     background-color: #1F2937;
+    padding-left: 128px;
+    width: auto%;
+    justify-content: space-between;
+    
+    
 }
 
 h1 {
+    display: flex;
     color: #f9faf8;
     font-size: 24px;
+    
+    
+    
 }
 
 ul {
@@ -18,12 +31,12 @@ ul {
     font-size: 18px;
     gap: 16px;
     list-style-type: none;
+    padding-right: 128px;
 }
-
+/*
 li {
-    
-
 } 
+*/
 li > a {
     text-decoration: none;
     color: #e5e7eb;
@@ -50,6 +63,12 @@ li > a {
 }
 
 .img {
+    background-color: grey;
+    height: 125px;
+    width: 300px;
+    text-align: center;
+    line-height: 125px;
+    color: #f9faf8
 
 }
 
