@@ -4,8 +4,9 @@ body {
     padding: 0;
     margin: 0;
 }
-.main {
-    
+.width {
+    display: flex;
+    width: 800px;
 }
 
 .head {
@@ -64,7 +65,7 @@ li > a {
     color: #f9faf8;
     font-size: 18px;
 }
-
+/*
 button {
     display: flex;
     background-color: #3882f6;
@@ -72,10 +73,32 @@ button {
     padding: 6px 24px;
     cursor: pointer;
     border-radius: 8px;
-    border: 1px solid royalblue;
     font-weight: 900;
     margin-top: 8px;
     margin-right: auto;
+}
+*/
+.top-button {
+    background-color: #3882f6;
+    color:#f9faf8;
+    padding: 6px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 900;
+    margin-top: 8px;
+    margin-right: auto;
+    border: 1px solid royalblue;
+}
+.bottom-button {
+    
+    background-color: #3882f6;
+    color:#f9faf8;
+    padding: 6px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 900;
+    margin-top: 8px;
+    border: 2px solid white;
     
 }
 
@@ -110,7 +133,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    
     gap: 48px;
     height: auto;
 
@@ -157,29 +180,53 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    
 }
 
 .quote {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    
+    font-weight: lighter;
+}
+
+.width.two {
+    width: 750px;
 }
 
 .quote2 {
     align-self: flex-end;
     font-size: 22px;
     font-weight: 900;
+    padding-right: 16px;
 }
 
 .cta {
     display: flex;
     height: 420px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
 
+.box {
+    display: flex;
+    background-color:#3882f6;
+    border-radius: 8px;
+    width: 850px;
+    height: 135px;
+    justify-content: space-around;
+    align-items: center;
+    color:#f9faf8;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    
+}
 .upper {
-
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .lower {
@@ -190,5 +237,7 @@ footer {
     display: flex;
     background-color: #1f2937;
     align-items: center;
+    justify-content: center;
     color: #f9faf8;
+    height: 84px;
 }
